@@ -11,7 +11,6 @@ namespace WebEval.Models
     public class Nota
     {
         [Key]
-      
         public int StudentID { get; set; }
         [Required]
         public int Note { get; set; }
